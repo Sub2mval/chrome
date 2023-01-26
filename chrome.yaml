@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  chrome:
+    build:
+      context: .
+      dockerfile: chrome
+    ports:
+      - "6080:6080"
